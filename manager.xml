@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>school Manager</comment>
+<entry key="operate">jdbc</entry>
+<entry key="dbpass">123456</entry>
+<entry key="dburl">jdbc:mysql://192.168.2.93:3306/mldn</entry>
+<entry key="workerinfo">d:\work.info</entry>
+<entry key="dbdriver">com.mysql.jdbc.Driver</entry>
+<entry key="dbuser">root</entry>
+<entry key="studentinfo">d:\student.info</entry>
+</properties>

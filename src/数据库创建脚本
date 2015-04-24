@@ -1,0 +1,13 @@
+DROP TABLE person;
+CREATE TABLE person(
+	pid			INT 			AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	name		VARCHAR(50)		NOT NULL,
+	age			INT				NOT NULL,
+	score		FLOAT			,
+	salary 		FLOAT			,
+	type 		INT
+);
+
+--插入测试数据
+INSERT INTO person (name,age,score,type) VALUES ('张三',20,99.9,1);
+INSERT INTO person (name,age,salary,type) VALUES ('李四',20,999.9,2);
